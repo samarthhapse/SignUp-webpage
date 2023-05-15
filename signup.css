@@ -1,0 +1,134 @@
+
+ /* CSS reset */
+ body {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg.png');
+    background-size: 1270px 600px;
+
+}
+
+.left {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    display: inline-block;
+    /*to make left box inline*/
+    /* border: 2px solid rgb(13, 246, 13); */
+}
+
+.left img {
+
+    height: 60px;
+    width: 70px;
+}
+
+.left div {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.mid {
+    display: block;
+    /*to make mid box block*/
+    width: 50%;
+    margin: 40px auto;
+    /* to take box in middle and little bit below the top */
+    /* border: 4px solid rgb(146, 251, 120); */
+    border-radius: 10px;
+}
+
+.right {
+    position: absolute;
+    top: 10px;
+    right: 23px;
+    display: inline-block;
+    /*to make right box inline*/
+    /* border: 2px solid rgb(241, 118, 18); */
+}
+
+.navbar {}
+
+.navbar li {
+    display: inline-block;
+    /* to set all li in horizontal line bcs block elements take whole row*/
+
+}
+
+.navbar li a {
+    color: rgb(4, 4, 4);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+/* navbar li a:hover = to apply style when we hover over that element */
+/* navbar li a.active = currently we are on home page hence made it active compulsorily */
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(9, 192, 49);
+}
+
+.btn {
+    margin: 25px 15px;
+    padding: 5px 5px;
+    font-family: 'Allerta Stencil', sans-serif;
+
+    font-size: 17px;
+    color: rgb(183, 252, 146);
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    /*to point as a cursor when hover on it*/
+}
+
+.btn:hover {
+    background-color: rgb(87, 94, 82);
+}
+
+.container {
+    font-family: 'Allerta Stencil', sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    /* margin: 45px 15px; */
+    /* padding: 25px 40px; */
+    /* border-radius: 300px; */
+    margin: 70px 15px;
+    padding: 0px 40px;
+    width: 33%;
+    border-radius: 50px;
+}
+
+.form-group input {
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    color: aliceblue;
+    display: block;
+    width: 400px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(0, 7, 0);
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    /*now inline button will become block and, now we can adjust it's width and height*/
+    width: 50%;
+    border-radius: 1000px;
+    font-size: 20px;
+    margin: 25px auto;
+}
